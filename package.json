@@ -1,7 +1,7 @@
 {
-  "name": "dylux-bot",
+  "name": "GB-BOT-MD",
   "version": "2.0.0",
-  "description": "Customizable WhatsApp Bot",
+  "description": "Customizable WhatsApp Bot GB-BOT-MD",
   "main": "index.js",
   "type": "module",
   "directories": {
@@ -15,27 +15,23 @@
     "test2": "nodemon index.js"
   },
   "keywords": [
-    "termux-whatsapp-bot",
+    "GB-BOT-MD",
     "whatsapp-bot",
     "whatsapp",
     "js-whatsapp",
-    "whatsapp",
-    "dylux-bot",
-    "senna",
     "multi-device",
-    "senna-bot",
     "baileys-md"
   ],
-  "homepage": "https:                              
+  "homepage": "https:                        
   "author": {
     "name": "FG98"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/FG98F/dylux-bot.git"
+    "url": "git+https://github.com/GB-BOT-MD/GB-BOT-MD.git"
   },
   "bugs": {
-    "url": "https:                                    
+    "url": "https:                                        
   },
   "license": "GPL-3.0-or-later",
   "dependencies": {
@@ -88,3 +84,7 @@
     "ytdl-core": "^4.11.5"
   },
   "optionalDependencies": {
+    "wa-sticker-formatter": "^4.3.2",
+    "moment-timezone": "^0.5.37"
+  }
+}
