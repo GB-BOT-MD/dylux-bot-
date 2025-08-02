@@ -1,54 +1,52 @@
 import { watchFile, unwatchFile } from 'fs'
-import chalk from 'chalk' 
-import { fileURLToPath } from 'url' 
+import chalk from 'chalk'
+import { fileURLToPath } from 'url'
 
 global.owner = [
-  ['59896172320', 'FG', true],
+  ['59896172320', 'GABRIEL', true],
   ['59896449730'],
   ['59894243071']
-] //Numeros de owner 
+]
 
-global.mods = [''] 
-global.prems = ['59896172320', '59896449730']
-global.botNumber = [''] 
-global.APIs = { // API Prefix
-  // name: 'https://website' 
-  nrtm: 'https://fg-nrtm.ddns.net',
+global.mods = ['']
+global.prems = ['59896172320', '59896449730', '59894243071']
+global.botNumber = ['']
+global.APIs = {
+  nrtm: 'https:                    
+  fgmods: '//fg-nrtm.ddns.net',
   fgmods: 'https://api.fgmods.xyz'
 }
-global.APIKeys = { // APIKey Here
-  // 'https://website': 'apikey'
-  'https://api.fgmods.xyz': 'fg_9XdnzCdQ' //--- 100 de límite diario --- Regístrese en https://api.fgmods.xyz/
+global.APIKeys = {
+  'https:                                
 }
 
-// Sticker WM
-global.packname = 'DyLux┃ᴮᴼᵀ' 
-global.author = '@fg98' 
+global.packname = '//api.fgmods.xyz': 'fg_9XdnzCdQ'
+}
 
-//--info FG
-global.botName = 'DyLux'
-global.fgig = 'https://instagram.com/fg98_ff' 
-global.fgsc = 'https://github.com/FG98F/dylux-bot' 
-global.fgyt = 'https://youtube.com/fg98f'
-global.fgpyp = 'https://paypal.me/fg98f'
-global.fglog = 'https://i.ibb.co/1zdz2j3/logo.jpg' 
+global.packname = 'GABRIEL┃ᴮᴼᵀ'
+global.author = '@GABRIEL'
+global.botName = 'GABRIEL'
+global.fgig = ''
+global.fgsc = 'https://github.com/GB-BOT-MD/dylux-bot-.git'
+global.fgyt = ''
+global.fgpyp = ''
+global.fglog = ''
 
-//--- Grupos WA
-global.id_canal = '120363177092661333@newsletter' //-ID de canal de WhatsApp
-global.fgcanal = 'https://whatsapp.com/channel/0029VaCeuZd6mYPQiWqxXj1F'
-global.bgp = 'https://chat.whatsapp.com/BESBo5xjvIZE4YVvth6Yzr'
-global.bgp2 = 'https://chat.whatsapp.com/I7bvd8XCAOUHjgkHteqFC7'
-global.bgp3 = 'https://chat.whatsapp.com/F0JTTyZ3hsoL7OlU8TEpuH' //--GP NSFW
+global.id_canal = ''
+global.fgcanal = ''
+global.bgp = 'https:                                                     
+global.bgp2 = '//chat.whatsapp.com/Ey48fxC1yva2r9Ix0wQbvn?mode=ac_t'
+global.bgp2 = 'https://chat.whatsapp.com/F4T2BWm7zoeJrsENa4CTqm?mode=ac_t'
+global.bgp3 = ''
 
 global.wait = '⌛ _Cargando..._\n*▬▬▬▭*'
 global.rwait = '⌛'
 global.dmoji = '🤭'
 global.done = '✅'
-global.error = '❌' 
-global.xmoji = '🔥' 
-
-global.multiplier = 69 
-global.maxwarn = '2' // máxima advertencias
+global.error = '❌'
+global.xmoji = '🔥'
+global.multiplier = 69
+global.maxwarn = '2'
 
 let file = fileURLToPath(import.meta.url)
 watchFile(file, () => {
